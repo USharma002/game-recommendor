@@ -11,7 +11,7 @@ It is still under development
 
 ### Installation
 
-** Client** 
+**Client**
 
 Within the client folder
 
@@ -20,7 +20,7 @@ npm install
 npm start
 ```
 
-** API ***
+**API**
 
 Within the api folder
 
