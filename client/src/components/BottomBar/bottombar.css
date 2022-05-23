@@ -1,0 +1,15 @@
+.center-div{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dark-div{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
+
+.light-div{
+    background-color: rgb(123, 123, 123, 0.8);
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+.genre-container{
+    transition: 0.2s;
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid #6605ed;
+    border-radius: 6px;
+    display:inline-block;
+}
+
+.genre-container:hover{
+    background-color: rgba(120, 120, 120, 0.3);
+    border: 2px solid #ff00f7;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #6605ed;
+    color: white;
+    border-radius: 6px;
+}
+
+.excluded{
+    background-color: #ed053b;
+    border-color: #ed053b;
+    color: white;
+    border-radius: 6px;
+}
+
+.excluded:hover{
+    background-color: #ed0585;
+    color: white;
+    border-radius: 6px;
+}

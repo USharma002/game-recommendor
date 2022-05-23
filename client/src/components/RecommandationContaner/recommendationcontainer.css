@@ -1,0 +1,24 @@
+.recommended-container{
+    /* width: 98%; */
+    min-height: 100%;
+    margin-bottom: 40px;
+    /* padding-left: 30px;  */
+    /* padding-right: 30px; */
+    overflow: auto;
+    width: 100%;
+}
+
+.no-results{
+    margin-top: 25vh;
+    width: 100%;
+    font-size: 6vw;
+}
+
+.game-card{
+    display: inline-block;
+    text-align: left;
+}
+
+#recommend-container{
+    text-align: center;
+}

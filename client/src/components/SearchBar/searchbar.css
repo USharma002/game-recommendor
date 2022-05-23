@@ -1,0 +1,16 @@
+.search-container{
+    background: rgb(123, 123, 123);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.suggestion-container{
+    position: fixed;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+}

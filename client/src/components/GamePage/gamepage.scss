@@ -1,0 +1,171 @@
+$gradient-start-red: rgb(93, 36, 36);
+$gradient-mid-red: rgb(152, 58, 58);
+$gradient-end-red: rgb(45, 19, 15);
+$header-red: rgb(59, 21, 21);
+$header-text-grey: rgb(176, 166, 166);
+$header-dark-grey: #617a7a;
+$link-yellow: rgb(255, 205, 22);
+$background-dark-grey: rgba(44, 34, 34, 0.1);
+$background-darker-grey: rgb(35, 31, 31);
+$input-grey: rgb(59, 50, 50);
+$button-orange: rgb(255, 157, 0);
+$lighter-grey: #e9e8e6;
+$error-red: #d00101;
+$index-bg-red: rgb(122, 47, 47);
+$review-box-red: rgba(139, 74, 74, 0.75);
+
+$index-detail-red: rgb(219, 103, 103);
+
+.metacritic{
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.metacritic-small{
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.metacritic-text{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.metacritic-container{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.metacritic-container:hover{
+    cursor: pointer;
+}
+
+.universal-acclaim{
+    background-color: #45fc03;
+}
+
+.generally-favourable{
+    background-color: #73fc03;
+}
+
+.mixed-review{
+    background-color: #d9bf00;
+}
+
+.generally-unfavourable{
+    background-color: #f50202;
+}
+
+.overwhelming-dislike{
+    background-color: #f50202;
+}
+
+.recommendations{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.screenshot-img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.game-title{
+    text-overflow: wrap;
+    word-wrap: break-word;
+    width: 320px;
+}
+
+.screenshots-container{
+    align-items: center;
+    display: flex;
+    margin-top: 5px;
+    padding: 2px;
+    margin: 10px;
+    width: 100% !important;
+}
+
+.screenshots-slider{
+    display: flex;
+    margin-top: 5px;
+    transition: 0.5s;
+}
+
+.game-detail-main {
+    display: block;
+    width: 100%;
+    margin: 10px;
+
+    .game-detail-right {
+        .big-picture {
+            width: 100%;
+            height: 340px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        .screenshots {
+            display: flex;
+            margin-top: 5px;
+            overflow: hidden;
+            // overflow-x: scroll;
+            // &::-webkit-scrollbar {
+            //     width: 1em;
+            // }
+
+            // &::-webkit-scrollbar-track {
+            //     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            // }
+
+            // &::-webkit-scrollbar-thumb {
+            //     background-color: $gradient-end-red;
+            //     outline: 1px solid slategrey;
+            // }
+            // &::-webkit-scrollbar-button {
+            //     display: block;
+            //     color: blue;
+            //     background-color: green;
+            // }
+            .screenshot {
+                width: 125px;
+                height: 60px;
+                margin-right: 2px;
+                position: relative;
+                border: 2px solid transparent;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .active {
+                border: 2px solid $lighter-grey;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: -27px;
+                    left: 50px;
+                    width: 0;
+                    height: 0;
+                    border: 13px solid transparent;
+                    border-bottom-color: $lighter-grey;
+                }
+            }
+        }
+    }
+}

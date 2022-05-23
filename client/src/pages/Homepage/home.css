@@ -1,0 +1,17 @@
+.fixed-container{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.relative-container{
+    position: relative;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.animated-container{
+    width: 100%;
+    display: inline-block;
+}

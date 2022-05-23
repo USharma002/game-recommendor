@@ -1,0 +1,13 @@
+.like-btn:hover{
+    color: #be03fc;
+}
+.game-card{
+    transition: 0.5s;
+}
+.game-card:hover{
+    transform: scale(1.02);
+}
+
+.liked{
+    color: #fc03db !important;
+}

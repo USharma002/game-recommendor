@@ -1,0 +1,14 @@
+.theme-selector{
+    margin: 15px !important;
+}
+
+.highlighted{
+    color: #be03fc !important;
+    border-color: #be03fc !important;
+    border-width: 2px !important;
+}
+
+.highlighted:hover{
+    color: white !important;
+    background-color: #be03fc !important;
+}
